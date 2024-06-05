@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React,{useEffect} from "react";
 
 function Features() {
-  const [users, setUsers] = useState(0);
-  const [transactions, setTransactions] = useState(0);
-  const [activeUsers, setActiveUsers] = useState(0);
-  const [bookings, setBookings] = useState(0);
-  const [appDownloads, setAppDownloads] = useState(0);
+  const [users, setUsers] =React.useState(0);
+  const [transactions, setTransactions] =React.useState(0);
+  const [activeUsers, setActiveUsers] =React.useState(0);
+  const [bookings, setBookings] = React.useState(0);
+  const [appDownloads, setAppDownloads] =React.useState(0);
 
   useEffect(() => {
     const increment = 1;

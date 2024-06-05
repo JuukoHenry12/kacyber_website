@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import kacyber from "../assets/kacyber.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Feature = () => {
-    const [activeTab, setActiveTab] = useState('dashboard');
+    const [activeTab, setActiveTab] =React.useState('dashboard');
 
     const handleTabClick = (tab) => {
         setActiveTab(tab);
