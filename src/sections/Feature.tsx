@@ -6,7 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const Feature = () => {
     const [activeTab, setActiveTab] =React.useState('dashboard');
 
-    const handleTabClick = (tab) => {
+    const handleTabClick = (tab:any) => {
         setActiveTab(tab);
     };
 
