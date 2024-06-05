@@ -4,7 +4,7 @@ import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 function Reviews() {
   const slides = [
     {
-      src: "https://images.unsplash.com/photo-1595986630530-969786b19b4d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://kacyber.africa/wp-content/uploads/2023/11/335A90361-scaled.jpg",
       text: '"Kobodrop has helped me send and receive money with little to no complications. It´s what everyone who wants to be on top of their money needs!"',
       name: "Haruka Sato",
       country: "Japan",
@@ -29,7 +29,7 @@ function Reviews() {
     >
       <article className="mb-10 flex flex-col items-center justify-center lg:w-1/2 lg:items-start">
         <h2 className="mb-4 max-w-[16ch] text-center text-4xl font-semibold text-gray-800 lg:w-full lg:text-left">
-          Join other thousands of people growing with Kobodrop
+          Join other thousands  with Kacyber Go App
         </h2>
         <StoreLinks type={BtnTypes.Standard} />
       </article>

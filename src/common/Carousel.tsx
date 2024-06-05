@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ArrowBack from "../assets/icons/arrow_back.svg";
 import ArrowForward from "../assets/icons/arrow_forward.svg";
 import Star from "../assets/icons/star.svg";
@@ -15,23 +15,25 @@ interface Slide {
 }
 
 function Carousel({ slides }: CarouselProps) {
-  let [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(0);
 
   function previousSlide() {
-    if (current === 0) {
-      setCurrent(slides.length - 1);
-    } else {
-      setCurrent(current - 1);
-    }
+    setCurrent(current === 0 ? slides.length - 1 : current - 1);
   }
 
   function nextSlide() {
-    if (current === slides.length - 1) {
-      setCurrent(0);
-    } else {
-      setCurrent(current + 1);
-    }
+    setCurrent(current === slides.length - 1 ? 0 : current + 1);
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prevCurrent) => (prevCurrent === slides.length - 1 ? 0 : prevCurrent + 1));
+    }, 3000); // Change slide every 3 seconds
+
+    return () => {
+      clearInterval(interval); // Clear the interval when the component unmounts
+    };
+  }, [slides.length]);
 
   return (
     <div className="relative h-[400px] max-w-[400px] overflow-hidden rounded-2xl">
@@ -61,7 +63,6 @@ function Carousel({ slides }: CarouselProps) {
                   <img src={Star} className="h-5 w-5" alt="" />
                 </div>
               </div>
-              <h2>{slide.country}</h2>
             </div>
           </div>
         ))}

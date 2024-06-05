@@ -1,8 +1,8 @@
-import KobodropLight from "../assets/logos/kobodrop_logo_bright.png";
 import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Twitter from "../assets/logos/icons8-twitterx.svg";
 import Facebook from "../assets/logos/icons8-facebook.svg";
 import Linkedin from "../assets/logos/icons8-linkedin.svg";
+import Kacyberlogo from  "../assets/logos/kacyberlgogo.png"
 
 function Footer() {
   return (
@@ -12,10 +12,10 @@ function Footer() {
           <div>
             <img
               className="mb-4 w-36"
-              src={KobodropLight}
+              src={Kacyberlogo}
               alt="Light version of Kobodrop logo"
             />
-            <p>Start spending the smart way</p>
+            <p>Start Booking the smart way</p>
           </div>
           <div className="flex gap-10">
             <div className="flex flex-col gap-2">
@@ -42,7 +42,7 @@ function Footer() {
         </div>
         <div className="mt-14 flex justify-between border-t-2 border-t-gray-700 pt-10">
           <p className="w-[16ch] text-gray-400 md:w-full">
-            &copy; 2024 Kobodrop. All rights reserved.
+            &copy; 2024 KaCyber. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="https://twitter.com" target="_blank">

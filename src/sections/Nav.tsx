@@ -1,6 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
-import Kobodrop from "../assets/logos/kobodrop_logo.svg";
+import Kobodrop from "../assets/logos/kacyberlgogo.png";
 import ButtonLink from "../common/ButtonLink";
 
 function Nav() {
@@ -17,7 +17,7 @@ function Nav() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="flex h-[15vh] max-w-7xl items-center justify-between px-8 lg:px-12 xl:m-auto">
+          <div className="flex h-[14vh] max-w-8xl items-center justify-between px-8 lg:px-12 xl:m-auto">
             <div className="flex">
               <ButtonLink
                 href="#"
@@ -37,8 +37,8 @@ function Nav() {
             <ButtonLink
               href="https://play.google.com"
               target="_blank"
-              children={"Install Kobodrop"}
-              className="active:bg hidden rounded-xl bg-gray-800 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
+              children={"Download App"}
+              className="active:bg hidden rounded-xl bg-gray-500 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
             />
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white sm:hidden">
               {open ? (
