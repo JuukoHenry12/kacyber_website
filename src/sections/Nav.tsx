@@ -35,7 +35,7 @@ function Nav() {
               </div>
             </div>
             <ButtonLink
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/details?id=com.kacyber.tickets"
               target="_blank"
               children={"Download App"}
               className="active:bg hidden rounded-xl bg-blue-500 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"

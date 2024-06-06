@@ -17,7 +17,7 @@ function StoreLinks({ type }: StoreLinksProps) {
     return (
       <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
         <StoreLink
-          href="https://www.apple.com/app-store"
+          href="https://play.google.com/store/apps/details?id=com.kacyber.tickets"
           upperText="Download on the"
           lowerText="App Store"
           logo={AppleLogo}
@@ -25,7 +25,7 @@ function StoreLinks({ type }: StoreLinksProps) {
           className="flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800"
         />
         <StoreLink
-          href="https://play.google.com"
+          href="https://play.google.com/store/apps/details?id=com.kacyber.tickets"
           upperText="Get it on"
           lowerText="Google Play"
           logo={GooglePlay}
@@ -40,7 +40,7 @@ function StoreLinks({ type }: StoreLinksProps) {
     return (
       <>
         <StoreLink
-          href="https://www.apple.com/app-store"
+          href="https://play.google.com/store/apps/details?id=com.kacyber.tickets"
           upperText="Download on the"
           lowerText="App Store"
           logo={AppleLogo}
@@ -48,7 +48,7 @@ function StoreLinks({ type }: StoreLinksProps) {
           className="my-4 flex gap-3 rounded-lg border bg-transparent px-2 py-1 text-white hover:bg-zinc-950 active:bg-zinc-800"
         />
         <StoreLink
-          href="https://play.google.com"
+          href="https://play.google.com/store/apps/details?id=com.kacyber.tickets"
           upperText="Get it on"
           lowerText="Google Play"
           logo={GooglePlayBright}
