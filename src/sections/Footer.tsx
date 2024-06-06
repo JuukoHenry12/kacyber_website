@@ -2,7 +2,7 @@ import StoreLinks, { BtnTypes } from "../common/StoreLinks";
 import Twitter from "../assets/logos/icons8-twitterx.svg";
 import Facebook from "../assets/logos/icons8-facebook.svg";
 import Linkedin from "../assets/logos/icons8-linkedin.svg";
-import Kacyberlogo from  "../assets/logos/kacyberlgogo.png"
+import Kacyberlogo from "../assets/logos/kacyberlgogo.png"
 
 function Footer() {
   return (
@@ -22,17 +22,14 @@ function Footer() {
               <p className="text-gray-400">Product</p>
               <a href="#">Overview</a>
               <a href="#">Features</a>
-              <a href="#">Solutions</a>
               <a href="#">Contact</a>
               <a href="#">Releases</a>
             </div>
             <div className="flex flex-col gap-2">
               <p className="text-gray-400">Resources</p>
               <a href="#">Blog</a>
-              <a href="#">Newsletter</a>
               <a href="#">Events</a>
               <a href="#">Help Centre</a>
-              <a href="#">Support</a>
             </div>
           </div>
           <div className="w-fit">

@@ -8,7 +8,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 @tailwind utilities;
-
+.header{
+  margin-top:-60px;
+  margin-left: -25px;
+}
 #partners{
   margin-top: -20px;
 }

@@ -45,7 +45,6 @@ function Features() {
   return (
     <div>
       <section
-        id="features"
         className="flex max-w-full flex-col gap-10 px-8 pt-10 lg:px-12 xl:m-auto xl:pt-20"
       >
         <article className="m-auto w-full text-center text-gray-500 md:m-0 md:w-full">
@@ -53,7 +52,7 @@ function Features() {
             Make every Booking Count
           </h2>
           <p>
-            Book smarter, Pay for bus trips, other transport fees and daily commodities,
+            Book smarter, Pay for bus trips using the KaCyer Go Card, other transport fees and daily commodities,
           </p>
         </article>
       </section>

@@ -2,7 +2,6 @@ import AppleLogo from "../assets/logos/app_store.svg";
 import GooglePlay from "../assets/logos/google_play.svg";
 import GooglePlayBright from "../assets/logos/google_play_bright.svg";
 import StoreLink from "../common/StoreLink";
-
 interface StoreLinksProps {
   type: BtnTypes;
 }
@@ -45,7 +44,7 @@ function StoreLinks({ type }: StoreLinksProps) {
           lowerText="App Store"
           logo={AppleLogo}
           target="_blank"
-          className="my-4 flex gap-3 rounded-lg border bg-transparent px-2 py-1 text-white hover:bg-zinc-950 active:bg-zinc-800"
+          className="my-4 flex gap-2 rounded-lg border bg-transparent px-2 py-1 text-white hover:bg-zinc-950 active:bg-zinc-800"
         />
         <StoreLink
           href="https://play.google.com/store/apps/details?id=com.kacyber.tickets"
@@ -53,8 +52,9 @@ function StoreLinks({ type }: StoreLinksProps) {
           lowerText="Google Play"
           logo={GooglePlayBright}
           target="_blank"
-          className="my-4 flex gap-3 rounded-lg border bg-transparent px-2 py-1 text-white hover:bg-zinc-950 active:bg-zinc-800"
+          className="my-4 flex gap-2 rounded-lg border bg-transparent px-2 py-1 text-white hover:bg-zinc-950 active:bg-zinc-800"
         />
+  
       </>
     );
   }
