@@ -1,5 +1,6 @@
 import React from 'react';
-import kacyber from "../assets/kacyber.jpg";
+import kacyber from "../assets/juko.png"
+import kacyber2 from "../assets/reviews/image5.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -77,7 +78,7 @@ const Feature = () => {
                 >
                     <div className="flex flex-col md:flex-row">
                         <div className="flex-1 p-4">
-                            <img src={kacyber} alt="Kacyber app" width={400} height={400} />
+                            <img src={kacyber2} alt="Kacyber app" width={800} height={800} />
                         </div>
                         <div className="flex-1 p-4">
                             <h2 className="text-2xl font-bold mb-4">Board Buses with Kacyber Card</h2>
@@ -117,7 +118,7 @@ const Feature = () => {
                 >
                     <div className="flex flex-col md:flex-row">
                         <div className="flex-1 p-4">
-                            <img src={kacyber} alt="Kacyber app" width={400} height={400} />
+                            <img src={kacyber} alt="Kacyber app" width={500} height={500} />
                         </div>
                         <div className="flex-1 p-4">
                             <h2 className="text-2xl font-bold mb-4">Load your Card</h2>
@@ -147,7 +148,7 @@ const Feature = () => {
                                 </li>
                                 <li className="flex items-center mb-4">
                                     <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-blue-500" />
-                                    Step 6:
+                                    Step 6:Update the card to pending card payments to complete
                                 </li>
                                 <li className="flex items-center mb-4">
                                     <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-blue-500" />

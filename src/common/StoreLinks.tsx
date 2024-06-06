@@ -1,6 +1,7 @@
 import AppleLogo from "../assets/logos/app_store.svg";
 import GooglePlay from "../assets/logos/google_play.svg";
 import GooglePlayBright from "../assets/logos/google_play_bright.svg";
+import huaewi from "../assets/huawei.png"
 import StoreLink from "../common/StoreLink";
 
 interface StoreLinksProps {
@@ -32,6 +33,7 @@ function StoreLinks({ type }: StoreLinksProps) {
           target="_blank"
           className="flex gap-3 rounded-lg bg-zinc-900 px-4 py-3 text-white hover:bg-zinc-950 active:bg-zinc-800"
         />
+        
       </div>
     );
   }
