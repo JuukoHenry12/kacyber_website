@@ -10,23 +10,27 @@ function Reviews() {
       src: kacyber3,
       text: '"KaCyber has been a game changer for my daily financial dealings. It allows for quick and secure money transfers, which saves me a lot of time and effort."',
       name: "Thomas Morgan",
+      country:"Uganda"
      
     },
     {
       src: "https://kacyber.africa/wp-content/uploads/2023/11/335A90361-scaled.jpg",
       text: '"KaCyber has helped  paying for bus trips using the kacyber Card. It´s what everyone who wants to be on top of their money needs!"',
       name: "Haruka Sato",
+      country:"Uganda"
     },
     {
       src: kacyber2,
       text: '"Using Kacyber has streamlined the  transport sector like never before. Highly recommended for anyone looking to simplify tranport travels"',
       name: "Elena Rodriguez",
+      country:"Uganda"
     
     },
     {
       src: kacyber4,
       text: '"KaCyber has been a game changer for my daily financial dealings. It allows for quick and secure money transfers, which saves me a lot of time and effort."',
       name: "Thomas Morgan",
+      country:"Uganda"
     }
   ];
   return (
