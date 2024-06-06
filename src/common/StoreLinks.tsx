@@ -1,7 +1,6 @@
 import AppleLogo from "../assets/logos/app_store.svg";
 import GooglePlay from "../assets/logos/google_play.svg";
 import GooglePlayBright from "../assets/logos/google_play_bright.svg";
-import huaewi from "../assets/huawei.png"
 import StoreLink from "../common/StoreLink";
 
 interface StoreLinksProps {
