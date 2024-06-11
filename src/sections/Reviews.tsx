@@ -21,7 +21,7 @@ function Reviews() {
     },
     {
       src: kacyber2,
-      text: '"Using Kacyber has streamlined the  transport sector like never before. Highly recommended for anyone looking to simplify tranport travels"',
+      text: '"Using KaCyber has streamlined the  transport sector like never before. Highly recommended for anyone looking to simplify tranport travels"',
       name: "Prime minister Nabanja",
       country:"Uganda"
     

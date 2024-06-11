@@ -70,7 +70,7 @@ const Feature = () => {
                             <img src={kacyber2} alt="Kacyber app" width={800} height={800} />
                         </div>
                         <div className="flex-1 p-4">
-                            <h2 className="text-2xl font-bold mb-4">Board Buses with Kacyber Card</h2>
+                            <h2 className="text-2xl font-bold mb-4">Board Buses with KaCyber Card</h2>
                             <p className="mb-4">
                                 Passengers can simply tap their contactless card on the card reader when boarding the bus, without the need to insert or swipe the card
                             </p>
@@ -81,7 +81,7 @@ const Feature = () => {
                                 </li>
                                 <li className="flex items-center mb-4">
                                     <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-blue-500" />
-                                    Step 2: Tap your Kacyber Card on the contactless card reader.
+                                    Step 2: Tap your KaCyber Card on the contactless card reader.
                                 </li>
                                 <li className="flex items-center mb-4">
                                     <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-blue-500" />
@@ -151,11 +151,11 @@ const Feature = () => {
                         </div>
                         <div className="flex-1 p-4">
                             <h2 className="text-2xl font-bold mb-4">Load your Card</h2>
-                            <h3 className="mt-6 text-lg font-bold">Steps to Top Up Kacyber Card Using the App</h3>
+                            <h3 className="mt-6 text-lg font-bold">Steps to Top Up KaCyber Card Using the App</h3>
                             <ul className="list-none ml-5 text-black-500">
                                 <li className="flex items-center mb-4">
                                     <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-blue-500" />
-                                    Step 1: Open the Kacyber app on your device and click on the menu.
+                                    Step 1: Open the KaCyber app on your device and click on the menu.
                                 </li>
                                 <li className="flex items-center mb-4">
                                     <FontAwesomeIcon icon={faArrowRight} className="mr-2 text-blue-500" />

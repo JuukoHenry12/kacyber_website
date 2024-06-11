@@ -11,7 +11,7 @@ function Partners() {
           Our Partners
         </h2>
         <p>
-          Connect your other accounts to Kacyber seamlessly. KaCyber supports
+          Connect your other accounts to KaCyber seamlessly. KaCyber supports
           4+
           <br />
           integrations with other payment platforms like MTN, Yopayments,

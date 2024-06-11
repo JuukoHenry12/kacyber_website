@@ -11,10 +11,10 @@ function Features() {
     const increment = 1;
     const duration = 2000;
     const steps = duration / increment;
-    const targetUsers = 100;
-    const targetTransactions = 10;
-    const targetActiveUsers = 30;
-    const targetBookings = 10;
+    const targetUsers = 11;
+    const targetTransactions = 54.5;
+    const targetActiveUsers = 150;
+    const targetBookings = 1.1;
     const targetAppDownloads = 200;
 
     const incrementUsers = targetUsers / steps;
@@ -57,25 +57,22 @@ function Features() {
       <div className="bg-blue-50 py-8">
         <div className="counter-section grid grid-cols-2 gap-4 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           <div className="counter-item">
-            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{users.toFixed(1)}k</p>
-            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Users</h3>
+            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{users.toFixed(1)}M</p>
+            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Tickets Processed</h3>
           </div>
           <div className="counter-item">
             <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{transactions.toFixed(1)}M</p>
-            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Transactions</h3>
+            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Transaction Value</h3>
           </div>
           <div className="counter-item">
-            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{bookings.toFixed(1)}M</p>
-            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Bookings</h3>
+            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{bookings.toFixed(1)}K</p>
+            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Routes Covered</h3>
           </div>
           <div className="counter-item">
-            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{activeUsers.toFixed(1)}M</p>
-            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Active Users</h3>
+            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{activeUsers.toFixed(1)}</p>
+            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">Bus Coaches</h3>
           </div>
-          <div className="counter-item">
-            <p className="text-base font-semibold sm:text-lg md:text-xl lg:text-2xl">{appDownloads.toFixed(1)}K</p>
-            <h3 className="text-xs font-medium sm:text-sm md:text-base lg:text-lg">App Downloads</h3>
-          </div>
+      
         </div>
       </div>
     </div>
