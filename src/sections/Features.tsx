@@ -5,7 +5,7 @@ function Features() {
   const [transactions, setTransactions] = React.useState(0);
   const [activeUsers, setActiveUsers] = React.useState(0);
   const [bookings, setBookings] = React.useState(0);
-  const [appDownloads, setAppDownloads] = React.useState(0);
+
 
   useEffect(() => {
     const increment = 1;
@@ -15,13 +15,13 @@ function Features() {
     const targetTransactions = 54.5;
     const targetActiveUsers = 150;
     const targetBookings = 1.1;
-    const targetAppDownloads = 200;
+    
 
     const incrementUsers = targetUsers / steps;
     const incrementTransactions = targetTransactions / steps;
     const incrementActiveUsers = targetActiveUsers / steps;
     const incrementBookings = targetBookings / steps;
-    const incrementAppDownloads = targetAppDownloads / steps;
+ 
 
     let counter = 0;
 
@@ -31,7 +31,6 @@ function Features() {
       setTransactions((prev) => Math.min(prev + incrementTransactions, targetTransactions));
       setActiveUsers((prev) => Math.min(prev + incrementActiveUsers, targetActiveUsers));
       setBookings((prev) => Math.min(prev + incrementBookings, targetBookings));
-      setAppDownloads((prev) => Math.min(prev + incrementAppDownloads, targetAppDownloads));
 
       if (counter >= steps) {
         clearInterval(interval);
