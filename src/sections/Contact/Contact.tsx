@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../../assets/brij-logo-round.png'
 const Contact = () => {
   return (

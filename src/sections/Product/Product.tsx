@@ -1,4 +1,3 @@
-import React from 'react';
 import phone from '../../assets/paybills.png';
 import './product.css';
 import { TiTick } from "react-icons/ti";
