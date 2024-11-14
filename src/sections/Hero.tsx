@@ -1,32 +1,73 @@
-import StoreLinks, { BtnTypes } from "../common/StoreLinks";
-import HeroImage from "../assets/hero.png";
-import phone2 from "../assets/iphone.png"
-// import huawei from '../assets/huawei.png'
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 function Hero() {
   return (
-    <section className="relative mt-4 flex h-fit max-w-9xl flex-col items-center gap-10 px-8 sm:gap-16 md:my-0 md:h-[84.9vh] md:flex-row md:gap-0 lg:px-12 xl:m-auto xl:gap-0 xl:overflow-hidden">
-      <div className="sm:w-full md:w-3/6">
-        <h1 className="mx-auto mb-8 w-[12ch] text-center text-4xl font-semibold text-gray-800 sm:text-5xl md:mx-0 md:text-left">
-          Pay  for Your Bus fare KaCyber Go Card
-        </h1>
-        <p className="m-auto w-[35ch] text-center text-gray-500 md:m-0 md:text-left">
-          Take Control of Your travel bookings, Anywhere with KaCyber Go App.
-          Discover the smart way to travel Bus,Train and Ferry!
-        </p>
-        <StoreLinks type={BtnTypes.Standard} />
-      </div>
-      <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
-        <img
-          className="right-0 m-auto w-72 xl:absolute xl:left-6 xl:right-0 xl:mt-32 xl:w-80"
-          src={phone2}
-          alt="Kobodrop app frame"
-        />
-        <img
-          className="hidden rounded-2xl xl:flex"
-          src={HeroImage}
-          alt="A woman happily using Kobodrop"
-        />
-      </div>
+    <section className="relative w-full" id="hero">
+      {/* Full-width Carousel */}
+      <Carousel
+        showArrows={true}
+        showThumbs={false}
+        infiniteLoop
+        autoPlay
+        interval={5000}
+        showStatus={false}
+        swipeable
+        stopOnHover={false}
+        dynamicHeight={false}
+        showIndicators={false}
+        className="w-full"
+        renderArrowPrev={(clickHandler, hasPrev) =>
+          hasPrev && (
+            <button
+              onClick={clickHandler}
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black/50 p-3 rounded-full hover:bg-black"
+            >
+              ❮
+            </button>
+          )
+        }
+        renderArrowNext={(clickHandler, hasNext) =>
+          hasNext && (
+            <button
+              onClick={clickHandler}
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-black/50 p-3 rounded-full hover:bg-black"
+            >
+              ❯
+            </button>
+          )
+        }
+      >
+        {/* Slide 1 */}
+        <div className="flex h-[85vh] items-center justify-center ">
+          <div className="text-center ">
+            <h4 className="mb-4 text-5xl font-semibold text-yellow-600 animate-slideDown">PayBills Uganda</h4>
+            <h5 className="text-xl text-white">Pay Bills From Anywhere To Anyone In Africa.</h5>
+            <p className="mt-4 text-gray-300 max-w-2xl mx-auto text-white  delay-100">
+              We’re on a mission to build the de-facto intra-Africa payment network with
+              real-time payments infrastructure that connects African economies.
+            </p>
+            <button className="bg-yellow-600 p-4 m-4 rounded-full">
+              Discover PayBill
+            </button>
+          </div>
+        </div>
+
+        {/* Slide 2 */}
+        <div className="flex h-[85vh] items-center justify-center animate-slideDown ">
+          <div className="text-center ">
+            <h4 className="mb-4 text-5xl font-semibold text-yellow-600 animate">Seamless Payments</h4>
+            <h5 className="text-xl text-white delay-100">Fast, secure, and reliable payment solutions.</h5>
+            <p className="mt-4 text-gray-300 max-w-2xl mx-auto  delay-100">
+              Our platform ensures your transactions are completed in real-time, with
+              transparency and efficiency across Africa.
+            </p>
+              <button className="bg-yellow-600 p-4 m-4 rounded-full">
+                Discover PayBill
+              </button>
+          </div>
+        </div>
+      </Carousel>
     </section>
   );
 }

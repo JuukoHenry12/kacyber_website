@@ -1,19 +1,27 @@
-import Features from "./sections/Features";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Nav from "./sections/Nav";
 import Partners from "./sections/Partners";
 import Reviews from "./sections/Reviews";
-import Feature from "./sections/Feature";
+import Features from "./sections/Feature/Features";
+import AboutUs from "./sections/AboutUs/AboutUs";
+import Blackpage from "../src/sections/Blackpage"
+import Product from "../src/sections/Product/Product"
+import Contact from '../src/sections/Contact/Contact'
 function App() {
   return (
     <>
-      <Nav />
-      <Hero />
+       <div className="herosections ">
+        <Nav />
+        <Hero />
+       </div>
+      <AboutUs/>
       <Features />
+      <Blackpage/>
+      <Product/>
       <Partners />
-      <Feature />
       <Reviews />
+      <Contact/>
       <Footer />
     </>
   );
