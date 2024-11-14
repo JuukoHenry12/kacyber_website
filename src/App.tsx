@@ -5,9 +5,9 @@ import Partners from "./sections/Partners";
 import Reviews from "./sections/Reviews";
 import Features from "./sections/Feature/Features";
 import AboutUs from "./sections/AboutUs/AboutUs";
-import Blackpage from "../src/sections/Blackpage"
-import Product from "../src/sections/Product/Product"
-import Contact from '../src/sections/Contact/Contact'
+import Blackpage from "./sections/Blackpage"
+import Product from "./sections/Product/Product"
+import Contact from './sections/Contact/Contact'
 function App() {
   return (
     <>
