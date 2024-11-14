@@ -28,8 +28,8 @@ function Nav() {
 
   // Track active section using IntersectionObserver
   useEffect(() => {
-    const handleIntersection = (entries) => {
-      entries.forEach((entry) => {
+    const handleIntersection = (entries:any) => {
+      entries.forEach((entry:any) => {
         if (entry.isIntersecting) {
           setActiveSection(entry.target.id);
         }
@@ -50,7 +50,7 @@ function Nav() {
   }, []);
 
   // Dynamic link styles based on scroll state and active section
-  const textLinkClasses = (href) =>
+  const textLinkClasses = (href:any) =>
     scroll
       ? `hover:text-gray-600 active:text-gray-800 ${activeSection === href.slice(1)
         ? "border-b-2 border-green-600"
